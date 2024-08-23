@@ -23,6 +23,19 @@ html {
     text-align: center;
     text-decoration-line: none;
   }
+  .alink {
+    color: white;
+    line-height: 15px;
+    margin-right: 20px;
+    padding: 7px 5px 6px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.alink i {
+    margin-right: 3px; /* Adjust this value for more or less space between the icon and the text */
+}
+
   body {
     font-family: Arial, sans-serif;
     margin: 0;
