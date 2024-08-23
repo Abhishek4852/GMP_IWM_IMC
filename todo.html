@@ -6,6 +6,7 @@
     <title>Nagar Nigam Map</title>
     
     <script src="mains.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -58,7 +59,7 @@
   }
   .logo-text-hindi {
     display: block;
-    color: blue;
+    color:white;
     font-size: 20px;
     font-weight: bold;
   }
@@ -262,7 +263,11 @@
           <a href="logo\IMC Logo.png" class="logo-text">
             <p class="logo-text">
               INDORE MUNCIPAL CORPORATION(IMC)<br class="logo-text" />इंदौर नगर पालिका
-              निगम
+              निगम <a href="todo2.html" 
+              class="alink" id="switch-lang" title="Change Language हिन्दी" aria-label="Change Language हिन्दी"
+              rel="हिन्दी">
+              <i class="fa fa-language" aria-hidden="true"></i> हिन्दी
+          </a>
             </p>
           </a>
         </div>
@@ -272,72 +277,72 @@
           <input type="text" class="form-control me-2" id="searchInput" placeholder="Search..." />
           <i class="fas fa-search search-icon" style="padding-right:5px"></i>
           <div class="dropdown-menu" style="max-height: 300px; overflow-y: auto;">
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">संपत्ति कर करेक्शन यूनिट</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">ई नगर पालिका लाइसेंस बोरिंग</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">नर्मदा जल प्रदाय</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">स्पॉट फाइन</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">2Nd flore</a><br><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Property Tax Correction Unit</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">E Municipal License Boring</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Narmada water supply</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">spot fine</a><br>
               
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">जलकर मार्केट</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">परिवहन</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">लेव (पानी टेस्टिंग)</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">राम रोटी योजना</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">शहरी परिवहन एवं वाहन पार्किंग विभाग</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">रेशम केंद्र</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">गौशाला</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">रेन बसेरा / आश्रय स्थल</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">रसोई योजना दीनदयाल</a><br>
-              <a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">प्रभावी राजस्व विभाग</a><br><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">water tax market</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">transportation</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Lab (water testing)</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Ram Roti Scheme</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Urban Transport and Vehicle Parking Department</a><br>
+         <!--    <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">silk center</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">cow shed</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">रेन बसेरा / आश्रय स्थल</a><br>    
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">रसोई योजना दीनदयाल</a><br>
+              <a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">प्रभावी राजस्व विभाग</a><br><br>
               
               <a href="https://maps.app.goo.gl/DwhhK9hf6LAsyMJe8">विद्युत विभाग</a><br>
               <a href="https://maps.app.goo.gl/DwhhK9hf6LAsyMJe8">संग्रहण कक्ष</a><br>
               <a href="https://maps.app.goo.gl/DwhhK9hf6LAsyMJe8">सेंट्रल स्टोर</a><br>
               <a href="https://maps.app.goo.gl/DwhhK9hf6LAsyMJe8">निविदा समिति कार्यालय स्टोर</a><br>
               <a href="https://maps.app.goo.gl/DwhhK9hf6LAsyMJe8">निर्वाचन कार्यालय</a><br>
-              <a href="https://maps.app.goo.gl/DwhhK9hf6LAsyMJe8">विधि विभाग</a><br><br>
+              <a href="https://maps.app.goo.gl/DwhhK9hf6LAsyMJe8">विधि विभाग</a><br><br>    -->
               
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">स्वच्छता एवं ठोस अवशिष्ट प्रबंधन विभाग</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">अपर आयुक्त श्री अभिलाष सर</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">स्थापना शाखा</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">अप्रयुक्त श्री सिद्धार्थ जैन</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">अप्रयुक्त श्री मनोज कुमार चौरसिया</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">अप्रयुक्त श्री श्यामेंद्र जयसवाल</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">नया उद्यान विभाग</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">कॉलोनी सेल फायर विभाग</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">उपयुक्त लता अग्रवाल</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">उद्यान विभाग संधारण शाखा</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">उद्यान विभाग सिविल शाका</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">परिषद कार्यालय</a><br>
-              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">सीएम हेल्पलाइन</a><br><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Sanitation and Solid Waste Management Department</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Sanitation and Solid Waste Management Department</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Establishment branch</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Additional Commissioner Shri Siddharth Jain</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Additional Commissioner Shri Manoj Kumar Chaurasia</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Additional Commissioner Shri Shyamendra Jaiswa</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">New Garden Department</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">colony cell</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">fire department</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Deputy Commissioner Lata Agarwal</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">garden department maintenance branch</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">garden department civil branch</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">council office</a><br>
+              <a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">CM Helpline</a><br><br>
               
-              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">आईटी डिपार्मेंट</a><br>
-              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">पेंशन विभाग</a><br>
-              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">योजना एवं सूचना प्रौद्योगिकी जनकार्य विभागो</a><br>
-              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">लेखा विभाग</a><br>
-              <a href="https://maps.app.goo.gl/Anc1qucNaiYURVJh7">अपरायुक्त श्री शिवम वर्मा</a><br>
-              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">लोक सूचना कार्यालय</a><br>
-              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">कंसल्टेंसी लेखा विभागो</a><br>
-              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">महापौर कार्यालय |आवक जावक</a><br><br>
+              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">IT department</a><br>
+              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">Pension Department (Super Staff)</a><br>
+              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">Planning and Information Technology Public Affairs Department</a><br>
+              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">accounting department</a><br>
+              <a href="https://maps.app.goo.gl/Anc1qucNaiYURVJh7">Commissioner Shri Shivam Verma</a><br>
+              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">Public Information Office</a><br>
+              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">Consultancy Accounts Department</a><br>
+              <a href="https://maps.app.goo.gl/eXJY8aJE7bc61KmeA">Mayor Inbound and outbound department.</a><br><br>
               
-              <a href="https://maps.app.goo.gl/xdaMyNWZGh414krw7">नगर निगम कंट्रोल रूम</a><br><br>
+              <a href="https://maps.app.goo.gl/xdaMyNWZGh414krw7">Municipal Corporation Control Room</a><br><br>
               
-              <a href="https://maps.app.goo.gl/SzM7uqRjNvNyb6Qr9">रिकॉर्ड रूम</a><br>
-              <a href="https://maps.app.goo.gl/SzM7uqRjNvNyb6Qr9">स्वास्थ्य विभाग</a><br>
-              <a href="https://maps.app.goo.gl/SzM7uqRjNvNyb6Qr9">मलेरिया विभाग</a><br><br>
+              <a href="https://maps.app.goo.gl/SzM7uqRjNvNyb6Qr9">record room</a><br>
+              <a href="https://maps.app.goo.gl/SzM7uqRjNvNyb6Qr9">health Department</a><br>
+              <a href="https://maps.app.goo.gl/SzM7uqRjNvNyb6Qr9">malaria department</a><br><br>
               
-              <a href="https://maps.app.goo.gl/eWsvfZkd9JiW5qax6">जय हिंद भवन</a><br>
-              <a href="https://maps.app.goo.gl/eWsvfZkd9JiW5qax6">पेंशन विभाग</a><br><br>
+              <a href="https://maps.app.goo.gl/eWsvfZkd9JiW5qax6">Jai Hind Bhawan</a><br>
+              <a href="https://maps.app.goo.gl/eWsvfZkd9JiW5qax6">pension (health department)</a><br><br>
               
-              <a href="https://maps.app.goo.gl/VecBY3FfM5oE5Sn76">NRY कार्यालय</a><br><br>
+              <a href="https://maps.app.goo.gl/VecBY3FfM5oE5Sn76">NRY office</a><br><br>
               
-              <a href="https://maps.app.goo.gl/skMWMJ1GiejMNs2w6">कोंडवाड़ा विभाग</a><br><br>
+              <a href="https://maps.app.goo.gl/skMWMJ1GiejMNs2w6">Kondwara department</a><br><br>
               
-              <a href="https://maps.app.goo.gl/XdHapDWBXPbWkPT56">ड्रेनेज विभाग</a><br>
-              <a href="https://maps.app.goo.gl/XdHapDWBXPbWkPT56">सीटीपीटी विभाग</a><br><br>
+              <a href="https://maps.app.goo.gl/XdHapDWBXPbWkPT56">Drainage Department</a><br>
+              <a href="https://maps.app.goo.gl/XdHapDWBXPbWkPT56">CTPT Department</a><br><br>
               
-              <a href="https://maps.app.goo.gl/TgsNKa31REx4duNt5">राजस्व विभाग (जन्म मृत्यू विवाह प्रमाण पत्र)</a><br><br>
+              <a href="https://maps.app.goo.gl/TgsNKa31REx4duNt5">Revenue Department (Birth Death Marriage Certificate)</a><br><br>
               
-              <a href="https://maps.app.goo.gl/Z3updv8mDbDaj8Jf9">NULM कार्यालय</a><br><br>
+              <a href="https://maps.app.goo.gl/Z3updv8mDbDaj8Jf9">NULM Office</a><br><br>
           </div>
       </div>
          
@@ -351,195 +356,127 @@
       <thead>
           <tr>
               <th>Sr. No</th>
-              <th>Department Name  (विभाग)</th>
-              <th>More  (अतिरिक्त) </th>
-              <th>Click Here  (पहुंचे)</th>
+              <th>Department Name </th>
+              <th>Floor No.</th>
+              <th>Click Here </th>
           </tr>
       </thead>
       <tbody>
           <tr>
               <td>1</td>
-              <td>संपत्ति कर करेक्शन यूनिट</td>
+              <td>Property Tax Correction Unit</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
 
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>2</td>
-              <td>ई नगर पालिका लाइसेंस बोरिंग</td>
+              <td>E Municipal License Boring</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>3</td>
-              <td>नर्मदा जल प्रदाय</td>
+              <td>Narmada water supply</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
-                </div>
+               
+                   
+        First Floor
+                  
+            
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>4</td>
-              <td>स्पॉट फाइन</td>
+              <td>spot fine</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
+          
           <tr>
-              <td>5</td>
-              <td>2Nd flore</td>
-              <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
-                </div>
-                                
-                                    </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
-          </tr>
+            <td>5</td>
+            <td>fire department</td>
+            <td>
+             First Floor
+              </div>
+                              
+                                  </td>
+            <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/iGVsehEtuky8NveD8">Locate</a></button></td>
+        </tr>
+
+
+
+
+
           <tr>
               <td>6</td>
-              <td>जलकर मार्केट</td>
+              <td>water tax market</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>7</td>
-              <td>परिवहन</td>
+              <td>transportation</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>8</td>
-              <td>लेव (पानी टेस्टिंग)</td>
+              <td>Lab (water testing)</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>9</td>
-              <td>राम रोटी योजना</td>
+              <td>Ram Roti Scheme</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>10</td>
-              <td>शहरी परिवहन एवं वाहन पार्किंग विभाग</td>
+              <td>Urban Transport and Vehicle Parking Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
-              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/6zfDLykHFHQE4Uyy6">Locate</a></button></td>
+              <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/p2FqgQuFp95Dnjxc8">Locate</a></button></td>
           </tr>
           <tr>
               <td>11</td>
-              <td>स्वच्छता एवं ठोस अवशिष्ट प्रबंधन विभाग</td>
+              <td>Sanitation and Solid Waste Management Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -547,16 +484,9 @@
           </tr>
           <tr>
               <td>12</td>
-              <td>अपर आयुक्त श्री अभिलाष सर</td>
+              <td>Sanitation and Solid Waste Management Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -564,16 +494,9 @@
           </tr>
           <tr>
               <td>13</td>
-              <td>स्थापना शाखा</td>
+              <td>Establishment branch</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -581,16 +504,9 @@
           </tr>
           <tr>
               <td>14</td>
-              <td>अपर आयुक्त श्री सिद्धार्थ जैन</td>
+              <td>Additional Commissioner Shri Siddharth Jain</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -598,16 +514,9 @@
           </tr>
           <tr>
               <td>15</td>
-              <td>अपर आयुक्त श्री मनोज कुमार चौरसिया</td>
+              <td>Additional Commissioner Shri Manoj Kumar Chaurasia</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -615,16 +524,9 @@
           </tr>
           <tr>
               <td>16</td>
-              <td>अपर आयुक्त श्री श्यामेंद्र जयसवाल</td>
+              <td> Additional Commissioner Shri Shyamendra Jaiswa</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -632,16 +534,9 @@
           </tr>
           <tr>
               <td>17</td>
-              <td>नया उद्यान विभाग</td>
+              <td>New Garden Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Second Floor
                 </div>
                                 
                                     </td>
@@ -649,16 +544,9 @@
           </tr>
           <tr>
               <td>18</td>
-              <td>कॉलोनी सेल फायर विभाग</td>
+              <td>colony cell</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -666,16 +554,9 @@
           </tr>
           <tr>
               <td>19</td>
-              <td>उप आयुक्त लता अग्रवाल</td>
+              <td>Deputy Commissioner Lata Agarwal</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -683,16 +564,9 @@
           </tr>
           <tr>
               <td>20</td>
-              <td>उद्यान विभाग संधारण शाखा</td>
+              <td>garden department maintenance branch</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -700,16 +574,10 @@
           </tr>
           <tr>
               <td>21</td>
-              <td>उद्यान विभाग सिविल शाखा</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                garden department civil branch</td>
+              <td>
+               Second Floor
                 </div>
                                 
                                     </td>
@@ -717,16 +585,9 @@
           </tr>
           <tr>
               <td>22</td>
-              <td>परिषद कार्यालय</td>
+              <td>council office</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -734,16 +595,9 @@
           </tr>
           <tr>
               <td>23</td>
-              <td>सीएम हेल्पलाइन</td>
+              <td>CM Helpline</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Second Floor
                 </div>
                                 
                                     </td>
@@ -751,16 +605,9 @@
           </tr>
           <tr>
               <td>24</td>
-              <td>आईटी डिपार्मेंट</td>
+              <td>IT department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -768,16 +615,9 @@
           </tr>
           <tr>
               <td>25</td>
-              <td>पेंशन विभाग</td>
+              <td>Pension Department (Super Staff)</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Ground Floor
                 </div>
                                 
                                     </td>
@@ -786,17 +626,10 @@
           <tr>
               <td>26</td>
 
-              <td>योजना एवं सूचना प्रौद्योगिकी जनकार्य विभाग</td>
+              <td>Planning and Information Technology Public Affairs Department</td>
               
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -806,16 +639,9 @@
           </tr>
           <tr>
               <td>27</td>
-              <td>लेखा विभाग</td>
+              <td>accounting department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Ground Floor
                 </div>
                                 
                                     </td>
@@ -823,16 +649,9 @@
           </tr>
           <tr>
               <td>28</td>
-              <td>अपर आयुक्त श्री शिवम वर्मा</td>
+              <td> Commissioner Shri Shivam Verma</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
@@ -840,16 +659,9 @@
           </tr>
           <tr>
               <td>29</td>
-              <td>लोक सूचना कार्यालय</td>
+              <td>Public Information Office</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Ground Floor
                 </div>
                                 
                                     </td>
@@ -857,16 +669,9 @@
           </tr>
           <tr>
               <td>30</td>
-              <td>कंसल्टेंसी लेखा विभाग</td>
+              <td>Consultancy Accounts Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Ground Floor
                 </div>
                                 
                                     </td>
@@ -874,16 +679,9 @@
           </tr>
           <tr>
               <td>31</td>
-              <td>महापौर कार्यालय |आवक जावक</td>
+              <td>Mayor Inbound and outbound department.</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -891,16 +689,9 @@
           </tr>
           <tr>
               <td>32</td>
-              <td>नगर निगम कंट्रोल रूम</td>
+              <td>Municipal Corporation Control Room</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Ground Floor
                 </div>
                                 
                                     </td>
@@ -908,16 +699,9 @@
           </tr>
           <tr>
               <td>33</td>
-              <td>रिकॉर्ड रूम</td>
+              <td>record room</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               Ground Floor
                 </div>
                                 
                                     </td>
@@ -925,16 +709,9 @@
           </tr>
           <tr>
               <td>34</td>
-              <td>स्वास्थ्य विभाग</td>
+              <td>health Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
@@ -942,16 +719,9 @@
           </tr>
           <tr>
               <td>35</td>
-              <td>मलेरिया विभाग</td>
+              <td>malaria department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
@@ -959,16 +729,9 @@
           </tr>
           <tr>
               <td>36</td>
-              <td>जय हिंद भवन</td>
+              <td>Jai Hind Bhawan</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -976,16 +739,9 @@
           </tr>
           <tr>
               <td>37</td>
-              <td>पेंशन विभाग</td>
+              <td>pension (health department)(health Department)</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
@@ -993,16 +749,9 @@
           </tr>
           <tr>
               <td>38</td>
-              <td>NRY कार्यालय</td>
+              <td>NRY office</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
@@ -1010,16 +759,9 @@
           </tr>
           <tr>
               <td>39</td>
-              <td>कोंदवाड़ा विभाग</td>
+              <td>Kondwara department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
@@ -1027,16 +769,9 @@
           </tr>
           <tr>
               <td>40</td>
-              <td>ड्रेनेज विभाग</td>
+              <td>Drainage Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -1044,16 +779,9 @@
           </tr>
           <tr>
               <td>41</td>
-              <td>सीटीपीटी विभाग</td>
+              <td>CTPT Department</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+               First Floor
                 </div>
                                 
                                     </td>
@@ -1061,16 +789,9 @@
           </tr>
           <tr>
               <td>42</td>
-              <td>राजस्व विभाग (जन्म मृत्यू विवाह प्रमाण पत्र)</td>
+              <td>Revenue Department (Birth Death Marriage Certificate)</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
@@ -1078,21 +799,15 @@
           </tr>
           <tr>
               <td>43</td>
-              <td>NULM कार्यालय</td>
+              <td>NULM Office</td>
               <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary " type="button"  >
-                        View
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                      
-                    </div>
+                Ground Floor
                 </div>
                                 
                                     </td>
               <td><button class="btn btn-primary"><a href="https://maps.app.goo.gl/Z3updv8mDbDaj8Jf9">Locate</a></button></td>
           </tr>
+          
           
           <!-- Add more rows as needed -->
       </tbody>
@@ -1150,3 +865,10 @@
     </footer>
   </body>
 </html>
+
+
+
+
+
+
+
